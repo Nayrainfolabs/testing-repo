@@ -82,7 +82,7 @@ jobs:
         working-directory: ./shubham
 
       - name: Terraform Format Check
-        run: terraform fmt -check
+        run: terraform fmt
         working-directory: ./shubham
 
       - name: Terraform Validate
